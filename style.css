@@ -3,19 +3,28 @@ header {
 }
 
 header h2{
-  color: pink;
-  font-size: 20pt;
+  color: white;
+  font-size: 15pt;
+  font-family: futura
 }
 
 nav h3 a{
   color: white;
-  font-size: 12pt
+  font-size: 12pt;
+  font-family: futura;
+  background-color: darkgray;
+  padding: 12px;
+  border-radius: 12px
 }
 
 header h3{
   font-size: 12pt
 }
 
+main section{
+  background-color: lightblue;
+  padding: 12px
+}
 main section p{
   font-size: 12pt;
 }
@@ -31,4 +40,9 @@ main section p{
   margin: auto
 }
 
-.double {  border: 5px double #000;  }
+.double { 
+  border: 9px double #000; 
+  margin: 30px;
+  background-color: pink;
+  border-radius: 3px;
+}
