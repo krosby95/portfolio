@@ -1,3 +1,5 @@
+/*-------GLOBAL------------*/
+
 header {
   font-size: 27pt;
 }
@@ -25,7 +27,7 @@ img {
 header h3{
   font-size: 12pt
 }
-
+/*-----------main section---------------------*/
 main section{
   background-color: lightblue;
   
@@ -35,15 +37,47 @@ main section p{
   font-size: 12pt;
 }
 
-ol{
-  
+hr{
+  background-color:darkred;
+  height: 2px;
+  border: none;
+}
+
+mark{
+  background-color: white;
+  border: 2px;
+  padding:0px 40px 0px 40px;
+  border-radius:18px;
 }
 
 
+/*--------CONTACT------*/
+
+article h2{
+  color: white;
+  font-size: 12pt;
+  font-family: futura;
+  background-color: darkolivegreen;
+  padding: 12px;
+  border-radius: 20px
+}
+
+p5 {
+  padding-left: 5px;
+  color:white !important
+
+}
+
+/*-------CLASSES--------------- */
 
 .centered{
   text-align: center;
-  padding: 0px 70px 0px 70px
+  padding: 0px 70px 0px 70px;
+  font-family: futura, helvetica, arial
+}
+
+.left{
+    text-align: left;
 }
 
 .background{
@@ -64,7 +98,7 @@ ol{
   margin: 30px;
   background-color: #f0ead6;
   border-radius: 4px;
-  padding: 9px
+  padding: 15px
         }
 
 .parent{
@@ -75,3 +109,6 @@ ol{
   border: 5px;
   solid: blue;
 }
+
+.white{
+  color: white
