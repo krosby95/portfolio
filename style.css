@@ -64,6 +64,13 @@ mark{
   border-radius:18px;
 }
 
+li{
+  background-color:white;
+  margin:2px;
+  border-radius: 12px;
+  text-align: left;
+}
+
 
 /*--------CONTACT------*/
 
