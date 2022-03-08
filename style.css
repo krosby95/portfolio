@@ -5,7 +5,7 @@ header {
 header h2{
   color: white;
   font-size: 15pt;
-  font-family: futura
+  font-family: futura;
 }
 
 nav h3 a{
@@ -13,7 +13,7 @@ nav h3 a{
   font-size: 12pt;
   font-family: futura;
   background-color: darkgray;
-  margin: 12px;
+  padding: 12px;
   border-radius: 20px
 }
 
@@ -28,21 +28,28 @@ header h3{
 
 main section{
   background-color: lightblue;
-  padding: 12px
+  
+
 }
 main section p{
   font-size: 12pt;
 }
 
+ol{
+  
+}
+
+
 
 .centered{
   text-align: center;
+  padding: 0px 70px 0px 70px
 }
 
 .background{
   background-color: black;
   width: auto;
-  margin: auto
+  margin: 3px;
 }
 
 .double { 
@@ -51,6 +58,14 @@ main section p{
   background-color: pink;
   border-radius: 3px;
 }
+
+.solid  {  
+  border: 2px solid #000 !important; 
+  margin: 30px;
+  background-color: #f0ead6;
+  border-radius: 4px;
+  padding: 9px
+        }
 
 .parent{
   display: flex;
