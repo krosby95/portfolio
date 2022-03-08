@@ -13,8 +13,13 @@ nav h3 a{
   font-size: 12pt;
   font-family: futura;
   background-color: darkgray;
+  margin: 12px;
+  border-radius: 20px
+}
+
+img {
+  border-radius: 12px;
   padding: 12px;
-  border-radius: 12px
 }
 
 header h3{
@@ -45,4 +50,13 @@ main section p{
   margin: 30px;
   background-color: pink;
   border-radius: 3px;
+}
+
+.parent{
+  display: flex;
+}
+
+.child{
+  border: 5px;
+  solid: blue;
 }
