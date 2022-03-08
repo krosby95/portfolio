@@ -1,1 +1,34 @@
+header {
+  font-size: 27pt;
+}
 
+header h2{
+  color: pink;
+  font-size: 20pt;
+}
+
+nav h3 a{
+  color: white;
+  font-size: 12pt
+}
+
+header h3{
+  font-size: 12pt
+}
+
+main section p{
+  font-size: 12pt;
+}
+
+
+.centered{
+  text-align: center;
+}
+
+.background{
+  background-color: black;
+  width: auto;
+  margin: auto
+}
+
+.double {  border: 5px double #000;  }
